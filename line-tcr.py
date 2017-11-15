@@ -45,18 +45,17 @@ print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage =""" [R.A] BOT Menu V.3  􀔃􀄆red check mark􏿿
+helpMessage =""" ♞♞♞ɆsᵽȺđȺ ŦɇȺm Ƀøŧ ♞♞♞
 
-􀔃􀅕red arrow right􏿿 Command Public
+❐ Command bot
 [Me]       Cek Akun Sendiri
 [My mid]   Cek Akun Mid
 [Bot?]     Cek Akun Bot
 [Id Group] Cek Id Group
 [Ginfo]    Group Info
 [Mid RA]   Cek All mid Bot
-[RA 1/2/3/4] Cek Mid Bot
 [Respon]   Cek Respon Bot
-[Speedbot] Cek Kecepatan Bot
+[Speed]    Cek Kecepatan Bot
 [Up]       Fungsi Spam Chat
 [Tagall]   Mention Semua User
 [Banlist]  Cek List Akun Banned
@@ -66,7 +65,7 @@ helpMessage =""" [R.A] BOT Menu V.3  􀔃􀄆red check mark􏿿
 [Open Url]  Membuka Url Group
 [Close Url] Menutup Url Group
 
-􀔃􀅕red arrow right􏿿 Command Private
+❐ Command Private
 [Set group] Menggatur Privasi Grup
 [Banned @] Bann Target 
 [Unban @]  Unbann Target
@@ -79,7 +78,7 @@ helpMessage =""" [R.A] BOT Menu V.3  􀔃􀄆red check mark􏿿
 [Bye _namabot]  Leave Bot
 """
 
-Setgroup =""" Privasi Menu V.1 􀔃􀄆red check mark􏿿
+Setgroup ="""❐ Command Protect
 
 [Protect Group]
 -- Gr on/off
@@ -103,8 +102,8 @@ Gmid = ko.getProfile().mid
 Hmid = ke.getProfile().mid
 Imid = ku.getProfile().mid
 
-Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,"u33d60593ad472ed11e7907fb1daee6ae"]
-admin=["u33d60593ad472ed11e7907fb1daee6ae"]
+Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,"ufdb348d53532a57228f045ecfaa00f8d"]
+admin=["ufdb348d53532a57228f045ecfaa00f8d"]
 wait = {
     'contact':False,
     'autoJoin':True,
@@ -120,16 +119,16 @@ wait = {
     "wblack":False,
     "dblack":False,
     "clock":False,
-    "cName":" ",
-    "cName2":"[R.A]_SX2 ",
-    "cName3":"[R.A]_SX3 ",
-    "cName4":"[R.A]_SX4 ",
-    "cName5":"[R.A]_SX5 ",
-    "cName6":"[R.A]_SX6 ",
-    "cName7":"[R.A]_SX7 ",
-    "cName8":"[R.A]_SX8 ",
-    "cName9":"[R.A]_SX9 ",
-    "cName10":"[R.A]_SX10 ",
+    "cName":"",
+    "cName2":"",
+    "cName3":"",
+    "cName4":"",
+    "cName5":"",
+    "cName6":"",
+    "cName7":"",
+    "cName8":"",
+    "cName9":"",
+    "cName10":"",
     "blacklist":{},
     "wblacklist":False,
     "dblacklist":False,
